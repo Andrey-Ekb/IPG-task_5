@@ -5,12 +5,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/go-chi/chi/v5"
-
+	"github.com/go-chi/chi"
 	"github.com/google/uuid"
 	jsoniter "github.com/json-iterator/go"
-	"github.com/login/test_project/internal/entity"
-	"github.com/login/test_project/internal/repository"
+	"main_test.go/internal/entity"
+	"main_test.go/internal/repository"
 )
 
 type friendService struct {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/google/uuid"
-	"github.com/login/test_project/internal/entity"
+	"main_test.go/internal/entity"
 )
 
 type mapRepository struct {

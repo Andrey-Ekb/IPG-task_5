@@ -1,6 +1,6 @@
 package repository
 
-import "github.com/login/test_project/internal/entity"
+import "main_test.go/internal/entity"
 
 type Repository interface {
 	// создаем нового пользователя
